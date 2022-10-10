@@ -72,14 +72,14 @@
           transition: all 0.3s ease-out;
         }
   
-        &:first-child {
-          &:after {
-            content: 'HOME';
-            font-family: sans-serif;
-          }
+        
+      }
+      a.home-link{
+        &:after {
+          content: 'HOME';
+          font-family: sans-serif;
         }
       }
-  
       a.about-link {
         &:after {
           content: 'ABOUT';
