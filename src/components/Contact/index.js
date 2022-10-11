@@ -27,7 +27,7 @@ const Contact = () => {
           alert('Message successfully sent! I will contact you at my earliest convenience:))');
           console.log(result.text);
           console.log("hi");
-          window.location.href = "/";;
+          window.location.href = "/MyPortfolio/";;
         },
         () => {
           alert('Failed to send the message, please try again')
