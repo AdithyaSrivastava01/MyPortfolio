@@ -24,7 +24,7 @@ Srivastava
     Developer|Ethusiasist
 </h2>
 {/* <Link to="/contact" className="flat-button">CONTACT ME</Link> */}
-<Link to="/MyPortfolio/contact" className="flat-button4">
+<Link to="/contact" className="flat-button4">
             CONTACT ME
           </Link>
             
