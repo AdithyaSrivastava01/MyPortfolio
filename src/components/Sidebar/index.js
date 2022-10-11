@@ -13,24 +13,24 @@ import { Link, NavLink } from 'react-router-dom'
 const Sidebar = () => {
   return (
     <div className="nav-bar">
-      <Link className="logo" to="/MyPortfolio">
+      <Link className="logo" to="/">
         <img src={LogoS} alt="Logo" />
         <img className="sub-logo" src={LogoSubtitle} alt="adithya" />
       </Link>
       <nav>
-        <NavLink activeclassname="active" className="home-link" to="/MyPortfolio/">
+        <NavLink activeclassname="active" className="home-link" to="/">
           <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
         </NavLink>
-        <NavLink activeclassname="active" className="about-link" to="/MyPortfolio/about">
+        <NavLink activeclassname="active" className="about-link" to="/about">
           <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
         </NavLink>
-        <NavLink activeclassname="active" className="project-link" to="/MyPortfolio/project">
+        <NavLink activeclassname="active" className="project-link" to="/project">
           <FontAwesomeIcon icon={faSuitcase} color="#4d4d4e" />
         </NavLink>
         <NavLink
           activeclassname="active"
           className="contact-link"
-          to="/MyPortfolio/contact"
+          to="/contact"
         >
           <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
         </NavLink>
