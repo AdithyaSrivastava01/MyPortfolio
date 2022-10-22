@@ -1,4 +1,5 @@
 import "./index.scss"
+import Loader from 'react-loaders'
 // import {Link} from "react-router-dom";
 import Work from '../../assets/images/workproject.png'
 import IQA from '../../assets/images/IQA_VQA.png'
@@ -84,6 +85,7 @@ const Project = () => {
         <a href="https://github.com/AdithyaSrivastava01" target="_blank" rel="noreferrer" className="flat-button67">
             VIEW MORE ON GITHUB
           </a>
+          <Loader type="pacman" />
         </div>
         
        
