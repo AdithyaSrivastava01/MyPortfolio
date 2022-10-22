@@ -10,7 +10,7 @@ import Fashion from '../../assets/images/FASHION.png'
 import Gym from '../../assets/images/gym.png'
 const Project = () => {
     return ( 
-       
+       <>
         <div className="container project-page">
             <div className="imagework">
             <img  src={Work} alt="workdp" align="right" />
@@ -85,9 +85,10 @@ const Project = () => {
         <a href="https://github.com/AdithyaSrivastava01" target="_blank" rel="noreferrer" className="flat-button67">
             VIEW MORE ON GITHUB
           </a>
-          <Loader type="pacman" />
+          
         </div>
-        
+        <Loader type="pacman" />
+        </>
        
      );
 }
